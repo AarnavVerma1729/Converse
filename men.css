@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+#top-nav {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#top-nav #flag-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#top-nav label {
+  font-weight: bold;
+}
+
+#top-nav #center {
+  text-align: center;
+  font-size: 14px;
+}
+
+#top-nav #right {
+  text-align: right;
+}
+
+#main-nav {
+  background-color: white;
+  text-align: left;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#main-nav img {
+  display: block;
+  margin-left: 20px;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black; 
+  text-align: center;
+  padding: 5px;
+}
+h1{
+  font-size: xx-large;
+  text-align: center;
+}
+#bt1{
+  background-color: white;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  font-weight: bold;
+}
+#bt1:hover {
+  border-color: 1px solid black;
+  color:white;
+  background-color: black;
+}
+#g1,#g2{
+  text-align: left;
+}
+#main{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+#s1::before{
+  content:  url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dw83ac5808/images/a_107/M9160_A_107X1.jpg?sw=200");
+  text-align: center;
+}
+#s1:hover::before{
+  content: url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dw9c56a632/images/d_08/M9160_D_08X1.jpg?sw=200");
+  text-align: center;
+}
+#s2::before{
+  content:url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dwa112b75c/images/a_107/162053C_A_107X1.jpg?sw=200");
+  text-align: center;
+}
+#s2:hover::before{
+  content: url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dwd79b0ded/images/d_08/162053C_D_08X1.jpg?sw=200");
+  text-align: center;
+}
+#s3::before{
+  content:url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dwf6d58d8c/images/a_107/162210C_A_107X1.jpg?sw=200");
+  text-align: center;
+}
+#s3:hover::before{
+  content: url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dw087723f3/images/d_08/162210C_D_08X1.jpg?sw=200");
+  text-align: center;
+}
+#s4::before{
+  content:url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dwd060421f/images/a_107/A04144C_A_107X1.jpg?sw=200");
+  text-align: center;
+}
+#s4:hover::before{
+  content: url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dw05dc2f9f/images/g_08/A04144C_G_08X1.jpg?sw=200");
+  text-align: center;
+}
+#s5::before{
+  content:url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dw8e8d7b47/images/e_08/150204C_E_08X1.jpg?sw=200");
+  text-align: center;
+}
+#s5:hover::before{
+  content: url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dw52f9c9c0/images/i_08/A08791C_I_08X1.jpg?sw=200");
+  text-align: center;
+}
+#s6::before{
+  content:url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dw73061eee/images/e_08/150206C_E_08X1.jpg?sw=200");
+  text-align: center;
+}
+#s6:hover::before{
+  content: url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dwb155d998/images/i_08/A08796C_I_08X1.jpg?sw=200");
+  text-align: center;
+}
+#s7::before{
+  content:url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dwe494b000/images/e_08/150205C_E_08X1.jpg?sw=200");
+  text-align: center;
+}
+#s7:hover::before{
+  content: url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dwe450590b/images/i_08/A08792C_I_08X1.jpg?sw=200");
+  text-align: center;
+}
+#s8::before{
+  content:url("https://www.converse.com/dw/image/v2/BCZC_PRD/on/demandware.static/-/Sites-cnv-master-catalog/default/dw1c807511/images/e_08/150207C_E_08X1.jpg?sw=200");
+  text-align: center;
+}
+#s8:hover::before{
+  content: url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dw4262f621/images/i_08/A08795C_I_08X1.jpg?sw=200");
+  text-align: center;
+}
+#s9::before{
+  content:url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dwa4500af0/images/a_107/A12803C_A_107X1.jpg?sw=200");
+  text-align: center;
+}
+#s9:hover::before{
+  content: url("https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dwfd18573c/images/h_08/A12803C_H_08X1.jpg?sw=200");
+  text-align: center;
+}
