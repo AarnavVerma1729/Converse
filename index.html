@@ -12,10 +12,22 @@
         <img src="https://www.converse.com/on/demandware.static/Sites-converse-uk-Site/-/default/dw64b91442/lib/flag-icon-css/flags/4x3/gb.svg" width="20" height="15" />
         <label>GB|EN</label>
         <span id="center">Shop now. Pay with Klarna</span>
-        <label id="right">Help | Sign In</label>
+        <button id="right" onclick="document.getElementById('form1').style.display='block';
+            document.getElementById('main-nav').style.display='none'">Sign In</button>
     </nav>
-    <nav id="main-nav">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Converse_logo.svg/1600px-Converse_logo.svg.png" width="75" height="50" alt="Converse logo" />
+    <nav id="main-nav" style="display:flex;" >
+            <div> <a href="index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Converse_logo.svg/1600px-Converse_logo.svg.png" width="75" height="50" alt="Converse logo" float="left">
+                </a>
+            </div>
+                 <div style="margin-left: 100px;">
+              <a href="#">New & Featured</a>
+              <a href="women.html">Women</a>
+              <a href="men.html">Men</a>
+              <a href="kids.html"">Kids</a>
+              <a href="#">Custom</a>
+              <a href="#">Launch</a>
+              <a href="#">Sale</a>
+                  </div>    
     </nav>
     <section id="promo-image">
         <img src="https://www.converse.com/on/demandware.static/-/Library-Sites-ConverseEU01SharedLibrary/default/dw79eae496/firstspirit/converse-uk/media/homepage_1/2025_spring/D_01-20-25_Charli_xcx_SP25_Brand_Campaign_HP_P1.jpg" width="100%" height="500px" alt="Spring Campaign" />
@@ -33,14 +45,47 @@
         </div>
     </section>
     <section>
-        <img src="https://www.converse.com/on/demandware.static/-/Library-Sites-ConverseEU01SharedLibrary/default/dw72fe1b2a/firstspirit/converse-uk/media/homepage_1/2025_spring/D-Converse-Homepage-P1-Vday-WE.jpg" width="100%" height="450px">
-        <button id="button2">Shop</button>
-        <img src="https://www.converse.com/on/demandware.static/-/Library-Sites-ConverseEU01SharedLibrary/default/dwa5803183/firstspirit/converse-uk/media/homepage_1/2025_spring/D-Converse-Homepage-P4A-Custom-Vday.gif" width="50%" height="450px" style="text-align: left;" id="val-img">
-        <img src="https://www.converse.com/on/demandware.static/-/Library-Sites-ConverseEU01SharedLibrary/default/dwf0c73a24/firstspirit/converse-uk/media/homepage_1/2025_spring/D-Converse-HP-WE-02-05-25-Paris-Weapon-P4-Right.jpg" width="50%" height="450" style="text-align: right;" id="par-img">
-        <div id="val-text">
-        <p>VALINITES DAY COLLECTION</p>
-        <h1>CUSTOM</h1>
-        </div>    
+        <img src="Screenshot 2025-02-12 194032.png" width="100%" height="450px">
+        <button id="button2">Shop Loafers</button>
+        <img src="D-Converse-Homepage-P4A-Custom-Vday.gif" width="50%" height="450px" style="text-align: left;" id="val-img">
+        <img src="weapon_paris.jpg" width="50%" height="450" style="text-align: right;" id="par-img">
+        <div id="val-text"> <div id="val-text">
+            <b style="font-size: 12px;">VALINITES DAY COLLECTION</b>
+            <h1>CUSTOM</h1>
+                <button id="rainbow-text">
+                  <span>Customise</span>
+                </button>
+            </div> 
+            <div id="par-text">
+                <b style="font-size: 12px;">NEW COLORS</b>
+                <h1>CONVERSE WEAPON PARIS</h1>
+                <button id="button3">Shop</button>
+            </div>
     </section>
+        </div>
+        <div id="form1" class="m">
+            <h1> Converse Login</h1>
+            <form action="index.html" method="get">
+                <fieldset>
+                <label>Name</label><br>
+                <input required type="text" name="name"class="in" placeholder="Enter Name">
+                <br>
+                <label>Email</label><br>
+                <input required type="email" name="email" class="in" placeholder="Enter email">
+                <br>
+                <label>Password</label><br>
+                <input required type="password" name="password"class="in" placeholder="Enter password">
+                <br>
+                <label>Confirm Password</label><br>
+                    <input required type="password" name="cpassword" class="in" placeholder="Repeat password">
+                    <br>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                  </label>
+                  <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                <button id="b1" onclick="index.html">LOGIN</button>
+                    </fieldset>
+            </form>
+        </div>
     </body>
 </html>
